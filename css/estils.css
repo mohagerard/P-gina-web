@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#all {
+    /*    border: 1px solid black;*/
+    width: 1500px;
+    margin: 5px auto;
+}
+
+header {
+    /*    border: 1px solid red;*/
+    height: 130px;
+    background-color: ;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: green;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+nav {
+    /*    border: 1px solid black;*/
+    height: 50px;
+    background-color: #585858;
+    padding: 10px;
+    display: center;
+    word-spacing: 50px;
+    
+    border-radius: 15px;
+}
+
+nav a {
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: snow;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+nav a:hover {
+    background-color: rgb(42, 40, 36);
+    color: darkgrey;
+}
+
+section {
+    /*    border: 1px solid red;*/
+    height: 300px;
+    width: auto;
+
+    padding-top: 40px;
+}
+
+#slider {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    width: 10%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+.logo img {
+
+    position: absolute;
+    width: auto;
+    height: 100px;
+}
+
+h2 {
+    background-color: gray;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-top: 15px;
+    border-radius: 15px;
+
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+article p {
+    /*    border: 1px solid red;*/
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+
+    height: 96px;
+    padding-top: 10px;
+    padding-left: 5px;
+
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+    padding-top: 40px;
+    
+    font-size: 40px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer p {
+    font-family: sans-serif;
+    font-size: 23px;
+    
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 21px;
+}
+
+/*
+.login-page {
+    width: 760px;
+    padding: 50% 0 0;
+    margin: 100px;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 900px;
+    padding: 445px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #43A047;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container {
+
+    position: relative;
+    z-index: 1;
+    max-width: 150px;
+    margin: 30 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 136px;
+    font-weight: 300;
+    color: #1a1a1a;
+*/
+
+
+/*
+    @media screen and (max-width: 400px);
+
+        {
+        header nav {
+            width: 80%;
+            height: 100%;
+            margin: 0;
+            position: fixed;
+        }
+
+        header nav ul li {
+
+            display: block;
+            float: none;
+            border-bottom: 1px solid rgba(255, 255, 255, .3);
+
+        }
+
+        .menu_bar {
+            display: block;
+            width: 100% background:#ccc;
+        }
+
+        .menu_bar .bt-menu {
+
+            display: block;
+            padding: 20px;
+            background: black;
+            font-weight: bold;
+        }
+    }
+*/
